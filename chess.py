@@ -217,7 +217,6 @@ def check_bishop(position, color):
     if color == 'white':
         enemies_list = black_locations
         friends_list = white_locations
-
     else:
         friends_list = black_locations
         enemies_list = white_locations
